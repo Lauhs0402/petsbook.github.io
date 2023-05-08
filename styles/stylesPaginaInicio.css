@@ -1,0 +1,179 @@
+/* Estilos generales */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+  }
+
+  main {
+    display: flex;
+    
+}
+
+.letra-p {
+	width: 50px;
+	height: 50px;
+}
+
+section {
+    width: 50%;
+	order: 1;
+	background-color: #ffffff;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 0.6em;
+}
+
+aside {
+    width: 25%;
+    order: 1;
+}
+
+.menu-lateral {
+    width: 25%;
+    order: 0;
+
+}
+
+.servicio-social{
+	font-size: 23px;
+	padding-left: 5px;
+}
+
+.mi-perfil{
+	font-size: 20px;
+	padding-left: 5px;
+	font-weight: 300;
+	color: #515151;
+}
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+.font-size-servicio-social li {
+	font-size: 0.8rem;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+  }
+
+  .font-size-servicio-social li a{
+	color: #4267B2;
+	text-decoration-line: none;
+  }
+
+  .imagen-perfil{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+  }
+
+  .menu-lateral1{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	height: 1000vh;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .navbar {
+	background-color: #ffffff;
+	color: rgb(200, 194, 194);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	align-items: center;
+	padding:5px 20px;
+  }
+  
+  .navbar a {
+	color: rgb(165, 163, 163);
+	text-decoration: none;
+	margin-left: 20px;
+  }
+  
+  .navbar a:first-child {
+	margin-left: 0;
+  }
+  
+
+  .navbar-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+  }
+
+  .navbar-menu li a{
+	font-size: 0.8rem;
+  }
+  
+  .navbar-menu-left {
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+  }
+  
+  .navbar-menu-right {
+	display: flex;
+	align-items: center;
+  }
+  
+  .navbar-menu-right li {
+	margin-left: 20px;
+  }
+  
+  .navbar-menu-right li:first-child {
+	margin-left: 0;
+  }
+
+  .separador{
+	border: none;
+  height: 2px;
+  background-color: black;
+ 
+  }
+  
+  /* Estilos del aside */
+  aside.aside-2 {
+	width: 200px;
+	background-color: #f2f2f2;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	box-sizing: border-box;
+	display: none;
+  }
+  
+  aside.aside-2 h2 {
+	margin-top: 0;
+  }
+  
+  aside.aside-2 ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  aside.aside-2 ul li {
+	margin-bottom: 10px;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+	.navbar-menu {
+	  display: none;
+	}
+  
+	aside.aside-2 {
+	  display: block;
+	}
+  }
+  
