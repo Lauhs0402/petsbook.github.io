@@ -11,10 +11,14 @@ h1{
     display: inline;
       }
 
-.subtitulo-iniciar-sesion{
+.subtitulo-iniciar-sesion, .subtitulo-registrarse{
     font-size: 0.9rem;
     font-weight: 500;
     color: #4267B2;
+}
+
+.label {
+    font-size: 0.7rem;
 }
 main{
     display: flex;
@@ -52,9 +56,19 @@ img{
 }
 
 .button-iniciarSesion{
-    width: 30%;
-    
+    width: auto;
+    font-size: 0.7rem;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #2c3e50;
+    color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
 }
+
+.button-iniciarSesion:hover {
+    background-color: #34495e;
+  }
 
 .input-design{
     width: 30%;
