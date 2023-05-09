@@ -10,6 +10,12 @@ body{
 h1{
     display: inline;
       }
+
+.subtitulo-iniciar-sesion{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #4267B2;
+}
 main{
     display: flex;
     flex-wrap: nowrap;
