@@ -43,7 +43,7 @@ function validarFormulario() {
       const boton = document.getElementById("registro-boton");
 
         boton.addEventListener("click", function() {
-        window.location.href = "/paginadeinicio.html";
+        window.location.href = "paginadeinicio.html";
 });
     }
   });
