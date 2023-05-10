@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animales abandonados</title>
+    <style>
+        ul{
+	list-style: none;
+	padding-left: 0;
+}
+/* Estilos de la barra de navegación */
+.navbar {
+	background-color: #ffffff;
+	color: rgb(200, 194, 194);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	align-items: center;
+	padding:5px 20px;
+  }
+  
+  .navbar a {
+	color: rgb(165, 163, 163);
+	text-decoration: none;
+	margin-left: 20px;
+  }
+  
+  .navbar a:first-child {
+	margin-left: 0;
+  }
+  
+
+  .navbar-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+  }
+
+  .navbar-menu li a{
+	font-size: 0.8rem;
+  }
+  
+    </style>
+</head>
+<body>
+    <header>
+		<!-- Barra de navegación -->
+		<nav class="navbar">
+			<div class="navbar-container">
+				<ul class="navbar-menu">
+					<li><a href="#"><img src="images/letra-p.png.." alt="" class="letra-p"></a></li>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Amigos</a></li>
+					<li><a href="#">Mensajes</a></li>
+					<li><a href="#">Notificaciones</a></li>
+					<li><a href="#" id="logout">Cerrar</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+    <main>
+        <div>
+            <h3>¿Quieres reportar un caso de abandono?</h3>
+            <button>Si</button><button>NO, quiero ver casos de abandono</button>
+            <h4>Completar el siguiente formulario</h4>
+            <form>
+                <div>
+                    <label for="">Lugar y dirección donde está el animal abandonado</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="">Estado de salud del animal abandonado</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="">Cantidad de animales abandonados</label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label for="">Tipo de animal abandonado</label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label for="">Algún aporte relevante para proceder a condiciones de rescate</label>
+                    <input type="text">
+                </div>
+            </form>
+        </div>
+        <div></div>
+    </main>
+</body>
+</html>
