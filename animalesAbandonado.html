@@ -65,30 +65,10 @@
     <main>
         <div>
             <h3>¿Quieres reportar un caso de abandono?</h3>
-            <button>Si</button><button>NO, quiero ver casos de abandono</button>
+            <button id="mostrar-formulario" onclick="mostrarFormulario()">Si</button><button>NO, quiero ver casos de abandono</button>
+            <div id="formulario-container"></div>
             <h4>Completar el siguiente formulario</h4>
-            <form>
-                <div>
-                    <label for="">Lugar y dirección donde está el animal abandonado</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Estado de salud del animal abandonado</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Cantidad de animales abandonados</label>
-                    <input type="number">
-                </div>
-                <div>
-                    <label for="">Tipo de animal abandonado</label>
-                    <input type="number">
-                </div>
-                <div>
-                    <label for="">Algún aporte relevante para proceder a condiciones de rescate</label>
-                    <input type="text">
-                </div>
-            </form>
+            
         </div>
         <div>
             <h3>Casos de abandono</h3>
@@ -118,5 +98,6 @@
             </div>
         </div>
     </main>
+    <script src="js/animalesAbandonados.js"></script>
 </body>
 </html>
