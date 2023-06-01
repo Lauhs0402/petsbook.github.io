@@ -31,8 +31,16 @@ main{
 .container{
     flex-basis: 50%;
     width: 50%;
+    align-items: center;
 }
 
+.registro-usuario form{
+  margin: 0 auto;
+}
+
+h4{
+  margin: 0;
+}
 
 
 .header h1, img, h2{
